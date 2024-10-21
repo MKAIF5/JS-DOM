@@ -40,11 +40,11 @@ const parent = document.querySelector(".parent");
 
 // console.log("NODES: " , parent.childNodes);
 
-const div = document.createElement("h1");
-div.className = "main"
-div.id = Math.round(Math.random() * 10 + 1)
-div.setAttribute("title", "kaif")
-// div.innerText = "practice DOM"
-const addText = document.createTextNode("parctice DOM");
-div.appendChild(addText)
-console.log(div);
+// const div = document.createElement("h1");
+// div.className = "main"
+// div.id = Math.round(Math.random() * 10 + 1)
+// div.setAttribute("title", "kaif")
+// // div.innerText = "practice DOM"
+// const addText = document.createTextNode("parctice DOM");
+// div.appendChild(addText)
+// console.log(div);
